@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <rect width="720" height="520" rx="36" fill="#eef6ff"/>
+  <rect x="92" y="86" width="536" height="330" rx="24" fill="#fff" stroke="#c7d2fe" stroke-width="6"/>
+  <rect x="132" y="130" width="456" height="52" rx="14" fill="#dbeafe"/>
+  <rect x="132" y="218" width="210" height="26" rx="13" fill="#93c5fd"/>
+  <rect x="132" y="266" width="330" height="24" rx="12" fill="#bfdbfe"/>
+  <rect x="132" y="312" width="270" height="24" rx="12" fill="#bfdbfe"/>
+  <circle cx="538" cy="282" r="58" fill="#22c55e"/>
+  <path fill="#fff" d="m514 281 17 17 34-39 11 10-45 52-28-28 11-12Z"/>
+  <text x="360" y="466" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1e3a8a">DevCI</text>
+</svg>
