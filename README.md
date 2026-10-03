@@ -239,8 +239,8 @@ Le navbar affiche automatiquement `logo.png`. Si le fichier est absent, le texte
 
 ## 📞 Support
 
-Pour toute question, ouvrez une issue ou contactez : **support@devci.ci**
+Pour toute question, ouvrez une issue ou contactez : **victoirebamba1@gmail.com**
 
 ---
 
-*Développé avec ❤️ pour l'écosystème numérique ivoirien*
+*Développé, pour l'écosystème numérique ivoirien*
