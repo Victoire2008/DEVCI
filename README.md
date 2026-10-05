@@ -1,4 +1,4 @@
-# 🇨🇮 DevCI – Plateforme Freelance Côte d'Ivoire
+# DevCI – Plateforme Freelance Côte d'Ivoire
 
 > Plateforme web Laravel de mise en relation entre développeurs freelances et clients en Côte d'Ivoire, avec messagerie intégrée et paiement mobile (Wave & Orange Money).
 
