@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Table des matières
+## Table des matières
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
@@ -13,7 +13,6 @@
 - [Configuration](#configuration)
 - [Comptes de démo](#comptes-de-démo)
 - [Structure du projet](#structure-du-projet)
-- [Paiement mobile](#paiement-mobile)
 - [Roadmap](#roadmap)
 
 ---
@@ -25,7 +24,6 @@ DevCI connecte des **clients** (entreprises, startups, particuliers) avec des **
 - Parcourir et filtrer les profils développeurs
 - Envoyer des demandes de projet
 - Communiquer via une messagerie en temps réel (AJAX polling)
-- Payer les prestations via Wave CI ou Orange Money
 
 ---
 
@@ -40,24 +38,22 @@ DevCI connecte des **clients** (entreprises, startups, particuliers) avec des **
 | **Mise en relation** | Formulaire de contact → conversation automatique |
 | **Messagerie (Chat)** | Bulles de discussion, envoi AJAX, polling toutes les 3 secondes |
 | **Tableau de bord** | Statistiques, conversations, paiements récents |
-| **Paiements** | Wave CI et Orange Money (mode démo sans clé API) |
 | **Notifications** | Compteur de messages non lus dans la navbar |
 
 ---
 
-## 🛠 Stack technique
+##  Stack technique
 
 - **Backend** : Laravel 10 (PHP 8.1+)
 - **Base de données** : MySQL 8 / MariaDB
 - **Frontend** : Blade, Bootstrap 5.3, Bootstrap Icons
 - **Fonts** : Inter + Space Grotesk (Google Fonts)
-- **Paiement** : Wave CI API, Orange Money WebPay CI
 - **Auth** : Laravel Session Auth
 - **Chat** : AJAX polling (toutes les 3 s)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 
@@ -98,7 +94,7 @@ Accédez ensuite à : **http://localhost:8000**
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Éditez le fichier `.env` :
 
@@ -196,7 +192,7 @@ devci/
 
 ---
 
-## 🖼️ Espace Logo
+##  Espace Logo
 
 Placez votre logo ici :
 ```
@@ -207,40 +203,8 @@ public/images/default-avatar.png  ← Avatar par défaut
 
 Le navbar affiche automatiquement `logo.png`. Si le fichier est absent, le texte **DevCI** s'affiche à la place.
 
----
-
-## 💳 Paiement mobile
-
-### Wave CI
-- Créez un compte développeur sur [developer.wave.com](https://developer.wave.com)
-- Ajoutez `WAVE_API_KEY` dans `.env`
-- Le callback est configuré sur `/payments/callback/wave`
-
-### Orange Money CI
-- Inscrivez-vous sur [developer.orange.com](https://developer.orange.com)
-- Configurez `ORANGE_MONEY_MERCHANT_KEY` et `ORANGE_MONEY_AUTH_HEADER`
-- Le callback est sur `/payments/callback/orange`
-
-> **Mode démo** : Sans clé API, les paiements fonctionnent en mode simulation — un message d'info s'affiche à la place de la redirection opérateur.
 
 ---
-
-## 🗺 Roadmap
-
-- [ ] Application mobile (Flutter)
-- [ ] Système de notation des développeurs
-- [ ] Recommandations par IA
-- [ ] Vérification des profils (badge vérifié)
-- [ ] Notifications en temps réel (WebSocket/Pusher)
-- [ ] Système de litiges / remboursement
-- [ ] Tableau de bord admin
-
----
-
-## 📞 Support
 
 Pour toute question, ouvrez une issue ou contactez : **victoirebamba1@gmail.com**
 
----
-
-*Développé, pour l'écosystème numérique ivoirien*
